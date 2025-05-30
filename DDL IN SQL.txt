@@ -1,0 +1,12 @@
+DDL IN SQL 
+
+create database amozon;
+use amozon;
+create table employee  (sl int, name varchar(30),email varchar(20), num int );
+desc employee;
+alter table employee add  status boolean;
+desc employee;
+alter table employee drop status;
+truncate table employee;
+desc employee;
+drop database amozon;
